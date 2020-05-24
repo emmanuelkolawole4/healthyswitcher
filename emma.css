@@ -8,7 +8,7 @@
     --lightGrey: #737373;
     --letterSpacing: 0.1em;
     --wordSpacing: 1.5rem;
-    /* --mainTransition: all 0.3s linear; */
+    --mainTransition: all 0.3s linear;
 }
 /* END OF ROOT VARIABLES */
 
@@ -580,7 +580,7 @@ hr {
     top: 100%;
     display: flex;
     width: 100%;
-    height: 510px;
+    height: 482px;
     justify-content: space-between;
 }
 .recipes-cards .one, .recipes-cards .two {
@@ -595,40 +595,77 @@ hr {
     url('./img/placeholder22.svg');
     height: 100%;
     border-radius: 6px;
-}
-.recipes-cards .two, .recipes-cards .three, .recipes-cards .four {
-    /* background: var(--darkGrey); */
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-.recipes-cards .one h4 {
-    margin-bottom: 1rem;
-    color: #191919;
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: -0.275px;
+.recipes-cards .two {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
 }
-.recipes-cards .two h4, .recipes-cards .three h4, .recipes-cards .four h4 {
-    margin-bottom: 1rem;
+.recipes-cards .one .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+}
+.recipes-cards .one .title h4 {
+    background-color: rgba(0, 0, 0, 0.3);
+    mix-blend-mode: normal;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
     color: var(--secondary);
-    font-size: 20px;
-    line-height: 27px;
-    letter-spacing: -0.275px;
+    padding: 2px 15px;
+    border-radius: 5px;
 }
-.recipes-cards .one p {
-    margin-top: 2rem;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: -0.1625px;
-    color: #191919;
+.recipes-cards .one .mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.recipes-cards .two p, .recipes-cards .three p, .recipes-cards .four p {
-    margin-top: 2rem;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: -0.1625px;
-    color: rgba(255, 255, 255, 0.5);
+.recipes-cards .one .stats {
+    display: flex;
+    justify-content: center;
 }
+.recipes-cards .two .top {
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 25px;
+}
+.recipes-cards .two .top div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recipes-cards .two .mid {
+    background: url('./img/placeholder-154.svg');
+    padding: 25px;
+}
+.recipes-cards .two .mid div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recipes-cards .two .bottom {
+    background: #34C759;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    padding: 25px;
+}
+.recipes-cards .two .bottom div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 /* END OF RECIPES SECTION */

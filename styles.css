@@ -11,7 +11,6 @@
     --wordSpacing: 1.5rem;
     /* --mainTransition: all 0.3s linear; */
 }
-
 /* END OF ROOT VARIABLES */
 
 /* UTILITY CLASSES */
@@ -52,7 +51,6 @@ body {
     background: var(--primary);
     width: 25%;
 }
-
 /* END OF UTILITY CLASSES */
 
 /* HEADER */
@@ -66,7 +64,6 @@ header {
     display: flex;
     flex-direction: column;
 }
-
 /* END OF HEADER */
 
 /* NAVBAR */
@@ -113,7 +110,6 @@ hr {
     mix-blend-mode: normal;
     opacity: 0.1;
 }
-
 /* END OF NAVBAR */
 
 /* BANNER */
@@ -123,8 +119,7 @@ hr {
     padding: 4rem;
 }
 
-.banner-title,
-.banner-text {
+.banner-title, .banner-text {
     color: var(--secondary);
 }
 
@@ -188,8 +183,7 @@ hr {
     color: var(--secondary);
 }
 
-.banner-contacts div i,
-.banner-contacts div p {
+.banner-contacts div i, .banner-contacts div p {
     margin-bottom: 20px;
 }
 
@@ -197,7 +191,6 @@ hr {
     mix-blend-mode: normal;
     opacity: 0.5;
 }
-
 /* END OF BANNER */
 
 /* ABOUT SECTION */
@@ -278,7 +271,6 @@ hr {
 .about-carousel span {
     align-self: center;
 }
-
 /* END OF ABOUT SECTION */
 
 /* WORK SECTION */
@@ -332,10 +324,7 @@ hr {
     justify-content: space-between;
 }
 
-.work-cards .one,
-.work-cards .two,
-.work-cards .three,
-.work-cards .four {
+.work-cards .one, .work-cards .two, .work-cards .three, .work-cards .four {
     width: 240px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
@@ -347,9 +336,7 @@ hr {
     background: var(--primary);
 }
 
-.work-cards .two,
-.work-cards .three,
-.work-cards .four {
+.work-cards .two, .work-cards .three, .work-cards .four {
     background: var(--darkGrey);
 }
 
@@ -361,9 +348,7 @@ hr {
     letter-spacing: -0.275px;
 }
 
-.work-cards .two h4,
-.work-cards .three h4,
-.work-cards .four h4 {
+.work-cards .two h4, .work-cards .three h4, .work-cards .four h4 {
     margin-bottom: 1rem;
     color: var(--secondary);
     font-size: 20px;
@@ -380,9 +365,7 @@ hr {
     color: #191919;
 }
 
-.work-cards .two p,
-.work-cards .three p,
-.work-cards .four p {
+.work-cards .two p, .work-cards .three p, .work-cards .four p {
     margin-top: 2rem;
     font-size: 13px;
     font-weight: 500;
@@ -390,7 +373,6 @@ hr {
     letter-spacing: -0.1625px;
     color: rgba(255, 255, 255, 0.5);
 }
-
 /* END OF WORK SECTION */
 
 /* DISHES SECTION */
@@ -494,12 +476,10 @@ hr {
     outline: none;
 }
 
-.dishes-cards>div:nth-child(1)>div.dish-card-body>div>button,
-.dishes-cards>div:nth-child(6)>div.dish-card-body>div>button {
+.dishes-cards>div:nth-child(1)>div.dish-card-body>div>button, .dishes-cards>div:nth-child(6)>div.dish-card-body>div>button {
     background: var(--primary);
     color: var(--darkGrey);
 }
-
 /* END OF DISHES SECTION */
 
 /* CHEFS SECTION */
@@ -553,38 +533,26 @@ hr {
     justify-content: space-between;
 }
 
-.chefs-cards .one,
-.chefs-cards .two,
-.chefs-cards .three,
-.chefs-cards .four {
+.chefs-cards .one, .chefs-cards .two, .chefs-cards .three, .chefs-cards .four {
     width: 320px;
 }
 
-.chefs-cards .one,
-.chefs-cards .two,
-.chefs-cards .three,
-.chefs-cards .four {
+.chefs-cards .one, .chefs-cards .two, .chefs-cards .three, .chefs-cards .four {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.chefs-cards .one .top,
-.chefs-cards .two .top,
-.chefs-cards .three .top {
+.chefs-cards .one .top, .chefs-cards .two .top, .chefs-cards .three .top {
     display: flex;
     align-items: center;
 }
 
-.chefs-cards .one .top img,
-.chefs-cards .two .top img,
-.chefs-cards .three .top img {
+.chefs-cards .one .top img, .chefs-cards .two .top img, .chefs-cards .three .top img {
     margin-right: 20px;
 }
 
-.chefs-cards .one .top div h1,
-.chefs-cards .two .top div h1,
-.chefs-cards .three .top div h1 {
+.chefs-cards .one .top div h1, .chefs-cards .two .top div h1, .chefs-cards .three .top div h1 {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
@@ -592,9 +560,7 @@ hr {
     color: var(--secondary);
 }
 
-.chefs-cards .one .top div p,
-.chefs-cards .two .top div p,
-.chefs-cards .three .top div p {
+.chefs-cards .one .top div p, .chefs-cards .two .top div p, .chefs-cards .three .top div p {
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
@@ -602,13 +568,10 @@ hr {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.chefs-cards .one .bottom,
-.chefs-cards .two .bottom,
-.chefs-cards .three .bottom {
+.chefs-cards .one .bottom, .chefs-cards .two .bottom, .chefs-cards .three .bottom {
     display: flex;
     justify-content: space-between;
 }
-
 /* END OF CHEFS SECTION */
 
 /* RECIPES SECTION */
@@ -661,8 +624,7 @@ hr {
     justify-content: space-between;
 }
 
-.recipes-cards .one,
-.recipes-cards .two {
+.recipes-cards .one, .recipes-cards .two {
     width: 500px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
@@ -757,7 +719,6 @@ hr {
     justify-content: space-between;
     align-items: center;
 }
-
 /* END OF RECIPES SECTION */
 
 /* DISHES SECTION */
@@ -855,7 +816,14 @@ hr {
     height: 73%;
     text-align: left;
 }
-
-
-
+body>section.social>div.social-cards>div:nth-child(2)>div.social-bodyt {
+    display: flex;
+    flex-wrap: wrap;
+    height: 73%;
+}
+body>section.social>div.social-cards>div:nth-child(2)>div.social-bodyt div {
+    width: 33.3333%;
+    height: 50%;
+    overflow: hidden;
+}
 /* END OF DISHES SECTION */

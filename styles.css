@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
+
 /* CSS VARIABLES */
 :root {
     --primary: #34c759;
@@ -8,8 +9,9 @@
     --lightGrey: #737373;
     --letterSpacing: 0.1em;
     --wordSpacing: 1.5rem;
-    --mainTransition: all 0.3s linear;
+    /* --mainTransition: all 0.3s linear; */
 }
+
 /* END OF ROOT VARIABLES */
 
 /* UTILITY CLASSES */
@@ -19,6 +21,7 @@
     box-sizing: border-box;
     list-style: none;
 }
+
 body {
     position: relative;
     max-width: 1440px;
@@ -27,24 +30,29 @@ body {
     font-family: "Lato", sans-serif;
     list-style: none;
 }
+
 .line {
     background: var(--primary);
     height: 2.5px;
 }
+
 .primary-line-center {
     position: absolute;
     top: 75%;
     left: 44.34%;
     right: 44.34%;
 }
+
 .line-one {
     background: #191919;
     width: 25%;
 }
+
 .line-others {
     background: var(--primary);
     width: 25%;
 }
+
 /* END OF UTILITY CLASSES */
 
 /* HEADER */
@@ -58,6 +66,7 @@ header {
     display: flex;
     flex-direction: column;
 }
+
 /* END OF HEADER */
 
 /* NAVBAR */
@@ -104,6 +113,7 @@ hr {
     mix-blend-mode: normal;
     opacity: 0.1;
 }
+
 /* END OF NAVBAR */
 
 /* BANNER */
@@ -113,7 +123,8 @@ hr {
     padding: 4rem;
 }
 
-.banner-title, .banner-text {
+.banner-title,
+.banner-text {
     color: var(--secondary);
 }
 
@@ -177,7 +188,8 @@ hr {
     color: var(--secondary);
 }
 
-.banner-contacts div i, .banner-contacts div p {
+.banner-contacts div i,
+.banner-contacts div p {
     margin-bottom: 20px;
 }
 
@@ -185,6 +197,7 @@ hr {
     mix-blend-mode: normal;
     opacity: 0.5;
 }
+
 /* END OF BANNER */
 
 /* ABOUT SECTION */
@@ -265,6 +278,7 @@ hr {
 .about-carousel span {
     align-self: center;
 }
+
 /* END OF ABOUT SECTION */
 
 /* WORK SECTION */
@@ -279,6 +293,7 @@ hr {
     text-align: center;
     display: flex;
 }
+
 .work-bg {
     position: absolute;
     height: 150px;
@@ -292,6 +307,7 @@ hr {
     letter-spacing: 0.2em;
     color: #303030;
 }
+
 .work-title {
     position: absolute;
     height: 90px;
@@ -306,6 +322,7 @@ hr {
     text-transform: capitalize;
     color: #d9d9d9;
 }
+
 .work-cards {
     position: absolute;
     top: 100%;
@@ -314,19 +331,28 @@ hr {
     height: 206px;
     justify-content: space-between;
 }
-.work-cards .one, .work-cards .two, .work-cards .three, .work-cards .four {
+
+.work-cards .one,
+.work-cards .two,
+.work-cards .three,
+.work-cards .four {
     width: 240px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     padding: 1.7rem;
     text-align: left;
 }
+
 .work-cards .one {
     background: var(--primary);
 }
-.work-cards .two, .work-cards .three, .work-cards .four {
+
+.work-cards .two,
+.work-cards .three,
+.work-cards .four {
     background: var(--darkGrey);
 }
+
 .work-cards .one h4 {
     margin-bottom: 1rem;
     color: #191919;
@@ -334,13 +360,17 @@ hr {
     line-height: 27px;
     letter-spacing: -0.275px;
 }
-.work-cards .two h4, .work-cards .three h4, .work-cards .four h4 {
+
+.work-cards .two h4,
+.work-cards .three h4,
+.work-cards .four h4 {
     margin-bottom: 1rem;
     color: var(--secondary);
     font-size: 20px;
     line-height: 27px;
     letter-spacing: -0.275px;
 }
+
 .work-cards .one p {
     margin-top: 2rem;
     font-size: 13px;
@@ -349,7 +379,10 @@ hr {
     letter-spacing: -0.1625px;
     color: #191919;
 }
-.work-cards .two p, .work-cards .three p, .work-cards .four p {
+
+.work-cards .two p,
+.work-cards .three p,
+.work-cards .four p {
     margin-top: 2rem;
     font-size: 13px;
     font-weight: 500;
@@ -357,6 +390,7 @@ hr {
     letter-spacing: -0.1625px;
     color: rgba(255, 255, 255, 0.5);
 }
+
 /* END OF WORK SECTION */
 
 /* DISHES SECTION */
@@ -371,6 +405,7 @@ hr {
     text-align: center;
     display: flex;
 }
+
 .dishes-bg {
     position: absolute;
     height: 150px;
@@ -384,6 +419,7 @@ hr {
     letter-spacing: 0.2em;
     color: #303030;
 }
+
 .dishes-title {
     position: absolute;
     height: 90px;
@@ -398,6 +434,7 @@ hr {
     text-transform: capitalize;
     color: #d9d9d9;
 }
+
 .dishes-cards {
     position: absolute;
     top: 100%;
@@ -408,32 +445,39 @@ hr {
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
 }
+
 .dish-card {
     height: 493px;
     background: #252525;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
 }
+
 .img-container img {
     max-width: 100%;
 }
+
 .dish-card-body {
     padding: 2rem 1.5rem;
     text-align: left;
 }
-.dish-card-body h1{
+
+.dish-card-body h1 {
     color: #d9d9d9;
     font-size: 32px;
     line-height: 30px;
     font-weight: 600;
 }
+
 .ratings {
     display: flex;
     justify-content: space-between;
 }
+
 .ratings img {
     width: 50%;
 }
+
 .ratings button {
     border: 2px solid #303030;
     font-style: normal;
@@ -449,10 +493,13 @@ hr {
     width: 40%;
     outline: none;
 }
-.dishes-cards>div:nth-child(1)>div.dish-card-body>div>button, .dishes-cards>div:nth-child(6)>div.dish-card-body>div>button {
+
+.dishes-cards>div:nth-child(1)>div.dish-card-body>div>button,
+.dishes-cards>div:nth-child(6)>div.dish-card-body>div>button {
     background: var(--primary);
     color: var(--darkGrey);
 }
+
 /* END OF DISHES SECTION */
 
 /* CHEFS SECTION */
@@ -467,6 +514,7 @@ hr {
     text-align: center;
     display: flex;
 }
+
 .chefs-bg {
     position: absolute;
     height: 150px;
@@ -480,6 +528,7 @@ hr {
     letter-spacing: 0.1em;
     color: #303030;
 }
+
 .chefs-title {
     position: absolute;
     height: 90px;
@@ -494,6 +543,7 @@ hr {
     text-transform: capitalize;
     color: #d9d9d9;
 }
+
 .chefs-cards {
     position: absolute;
     top: 100%;
@@ -502,39 +552,63 @@ hr {
     height: 160px;
     justify-content: space-between;
 }
-.chefs-cards .one, .chefs-cards .two, .chefs-cards .three, .chefs-cards .four {
+
+.chefs-cards .one,
+.chefs-cards .two,
+.chefs-cards .three,
+.chefs-cards .four {
     width: 320px;
 }
-.chefs-cards .one, .chefs-cards .two, .chefs-cards .three, .chefs-cards .four {
+
+.chefs-cards .one,
+.chefs-cards .two,
+.chefs-cards .three,
+.chefs-cards .four {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.chefs-cards .one .top, .chefs-cards .two .top, .chefs-cards .three .top {
+
+.chefs-cards .one .top,
+.chefs-cards .two .top,
+.chefs-cards .three .top {
     display: flex;
     align-items: center;
 }
-.chefs-cards .one .top img, .chefs-cards .two .top img, .chefs-cards .three .top img {
+
+.chefs-cards .one .top img,
+.chefs-cards .two .top img,
+.chefs-cards .three .top img {
     margin-right: 20px;
 }
-.chefs-cards .one .top div h1, .chefs-cards .two .top div h1, .chefs-cards .three .top div h1 {
+
+.chefs-cards .one .top div h1,
+.chefs-cards .two .top div h1,
+.chefs-cards .three .top div h1 {
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: -0.225px;
     color: var(--secondary);
 }
-.chefs-cards .one .top div p, .chefs-cards .two .top div p, .chefs-cards .three .top div p {
+
+.chefs-cards .one .top div p,
+.chefs-cards .two .top div p,
+.chefs-cards .three .top div p {
     font-weight: normal;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: -0.15px;
     color: rgba(255, 255, 255, 0.5);
 }
-.chefs-cards .one .bottom, .chefs-cards .two .bottom, .chefs-cards .three .bottom {
+
+.chefs-cards .one .bottom,
+.chefs-cards .two .bottom,
+.chefs-cards .three .bottom {
     display: flex;
     justify-content: space-between;
 }
+
 /* END OF CHEFS SECTION */
 
 /* RECIPES SECTION */
@@ -549,6 +623,7 @@ hr {
     text-align: center;
     display: flex;
 }
+
 .recipes-bg {
     position: absolute;
     height: 150px;
@@ -561,6 +636,7 @@ hr {
     letter-spacing: 0.1em;
     color: #303030;
 }
+
 .recipes-title {
     position: absolute;
     height: 90px;
@@ -575,6 +651,7 @@ hr {
     color: #d9d9d9;
     text-transform: capitalize;
 }
+
 .recipes-cards {
     position: absolute;
     top: 100%;
@@ -583,22 +660,26 @@ hr {
     height: 482px;
     justify-content: space-between;
 }
-.recipes-cards .one, .recipes-cards .two {
+
+.recipes-cards .one,
+.recipes-cards .two {
     width: 500px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     padding: 1.7rem;
     text-align: left;
 }
+
 .recipes-cards .one {
     background: linear-gradient(180deg, rgba(38, 38, 38, 0.0001) 0%, rgba(38, 38, 38, 0.5) 100%),
-    url('./img/placeholder22.svg');
+        url('./img/placeholder22.svg');
     height: 100%;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+
 .recipes-cards .two {
     height: 100%;
     display: flex;
@@ -606,12 +687,14 @@ hr {
     justify-content: space-between;
     padding: 0;
 }
+
 .recipes-cards .one .title {
     display: flex;
     justify-content: center;
     align-items: center;
     /* margin-top: 30px; */
 }
+
 .recipes-cards .one .title h4 {
     background-color: rgba(0, 0, 0, 0.3);
     mix-blend-mode: normal;
@@ -626,46 +709,153 @@ hr {
     padding: 2px 15px;
     border-radius: 5px;
 }
+
 .recipes-cards .one .mid {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .recipes-cards .one .stats {
     display: flex;
     justify-content: center;
 }
+
 .recipes-cards .two .top {
     background: #252525;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     padding: 25px;
 }
+
 .recipes-cards .two .top div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .recipes-cards .two .mid {
     background: url('./img/placeholder-154.svg');
     padding: 25px;
 }
+
 .recipes-cards .two .mid div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .recipes-cards .two .bottom {
     background: #34C759;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     border-radius: 6px;
     padding: 25px;
 }
+
 .recipes-cards .two .bottom div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
 /* END OF RECIPES SECTION */
+
+/* DISHES SECTION */
+.social {
+    position: absolute;
+    min-height: 250px;
+    top: 4450px;
+    width: 77%;
+    left: 155px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+}
+
+.social-bg {
+    position: absolute;
+    height: 150px;
+    left: 12.45%;
+    right: 12.26%;
+    top: calc(50% - 150px/2);
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 150px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
+
+.social-title {
+    position: absolute;
+    height: 90px;
+    left: 22.83%;
+    right: 22.64%;
+    top: calc(50% - 90px/2 - 1px);
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 90px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: capitalize;
+    color: #d9d9d9;
+}
+
+.social-cards {
+    position: absolute;
+    top: 100%;
+    display: grid;
+    width: 100%;
+    max-width: 1170px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+}
+
+.social-card {
+    height: 325px;
+    background: #252525;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.social-card .social-head {
+    height: 27%;
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.5px solid #303030;
+}
+
+.social-head div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-head div:nth-child(2) h5 {
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border: 2px solid #303030;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #737373;
+    padding: 0 15px;
+}
+.social-card .social-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 73%;
+    text-align: left;
+}
+
+
+
+/* END OF DISHES SECTION */
